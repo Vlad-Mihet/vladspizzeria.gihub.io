@@ -96,7 +96,7 @@ nav {
 }
 
 .horizontalLine {
-    width: 15%;
+    width: 12.5%;
     border: 3px solid #292b2c;
     border-radius: 50px;
     margin-top: 0!important;
@@ -104,7 +104,7 @@ nav {
 }
 
 .underLine {
-    width: 55%;
+    width: 42.5%;
     border: 3px solid crimson;
     border-radius: 50px;
 }
@@ -189,4 +189,9 @@ input {
 #footerHeader {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3.75vh;
+}
+
+#menuHeader,
+#deliveryHeader {
+    font-size: 6.75vh;
 }
