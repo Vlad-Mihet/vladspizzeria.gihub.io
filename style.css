@@ -13,8 +13,8 @@ body {
 }
 
 #logo {
-    width: 40px;
-    height: 48px;
+    width: 5vh;
+    height: 5vh;
 }
 
 .fwh-slide {
@@ -22,15 +22,9 @@ body {
 }
 
 nav {
-    height: 8.5vh;
     z-index: 1;
     width: 100%;
     position: fixed!important;
-    float: left;
-}
-
-#navigationBar {
-    background-color: crimson;
 }
 
 .nav-link {
@@ -79,7 +73,7 @@ nav {
 
 #banner img {
     width: 100%;
-    height: 125vh;
+    height: 45%;
 }
 
 #bannerText {
@@ -148,7 +142,7 @@ input {
 
 #deliveryBanner img {
     width: 100%;
-    height: 105vh;
+    height: 35%;
 }
 
 #deliveryInfoSection {
@@ -200,4 +194,8 @@ input {
 
 #footerDiv {
     padding: 1.125%;
+}
+
+#navigationBar {
+    padding: none;
 }
