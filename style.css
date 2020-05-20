@@ -22,10 +22,11 @@ body {
 }
 
 nav {
-    height: 75px;
+    height: 8.5vh;
     z-index: 1;
     width: 100%;
     position: fixed!important;
+    float: left;
 }
 
 #navigationBar {
@@ -33,16 +34,17 @@ nav {
 }
 
 .nav-link {
-    font-size: 1.1rem;
+    margin: 0 1.2vh!important;
+    font-size: 2.5vh;
     font-weight: 400;
     display: block;
     filter: contrast(90%);
 }
 
-#brand {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 500;
+#logo {
+    margin: 0 1.2vh;
+    height: 3.25%;
+    width: 3.25%;
 }
 
 .nav-link:hover {
@@ -194,4 +196,8 @@ input {
 #menuHeader,
 #deliveryHeader {
     font-size: 6.75vh;
+}
+
+#footerDiv {
+    padding: 1.125%;
 }
