@@ -8,12 +8,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-var button = document.getElementById('goDown');
-button.addEventListener('click', animate);
-images = document.getElementsByClassName('imgToAnimate');
-
-function animate() {
-    for (i = 0; i < images.length; i++) {
-        images[i].classList.add('scale-in-center');
-    }
-}
+activeLink = document.getElementsByClassName('active');
+list = document.querySelectorAll(".nav-item");
+list.forEach(
+    item.addEventListener('click', function(e) {
+        activeLink = document.getElementsByClassName('active');
+        activeLink.classList.remove('active');
+        item.classList.add('active');
+    })
+);

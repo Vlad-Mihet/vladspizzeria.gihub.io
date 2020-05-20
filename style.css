@@ -199,3 +199,7 @@ input {
 #navigationBar {
     padding: none;
 }
+
+#searchBar {
+    border-radius: 10px;
+}
