@@ -17,3 +17,5 @@ list.forEach(
         item.classList.add('active');
     })
 );
+
+// Script Needed for every collapsible item
