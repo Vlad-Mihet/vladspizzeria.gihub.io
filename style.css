@@ -18,7 +18,7 @@ body {
 }
 
 .fwh-slide {
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 nav {
@@ -50,7 +50,7 @@ nav {
 }
 
 #reasonHeader {
-    margin-top: 3vh!important;
+    margin-top: 3vh;
     margin: 3.5% 0 2.5% 0;
     color: crimson;
 }
@@ -157,7 +157,7 @@ input {
 }
 
 #deliveryInfoSection h3 {
-    font-size: 4.5vh!important;
+    font-size: 4.5vh;
     margin: 0.8%;
 }
 
@@ -174,12 +174,16 @@ input {
 #banner,
 #deliveryBanner h3 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.75vh!important;
+    font-size: 3.75vh;
 }
 
 #deliveryBannerHeader,
 #reasonHeader {
     font-size: 6.5vh!important;
+}
+
+#reasonParagraph {
+    font-size: 2.5rem;
 }
 
 #footerHeader {
@@ -252,4 +256,74 @@ input {
     cursor: pointer;
     transition-property: background-color;
     transition-duration: 0.6s;
+}
+
+#deliveryInfoHeader {
+    display: none;
+}
+
+@media screen and (device-height:) {}
+
+
+/* Phones */
+
+@media all and (max-device-height: 960px) and (max-device-width: 540px) {
+    #logo {
+        width: 10%;
+        height: 10%;
+    }
+    #banner img {
+        margin-top: 11%;
+        margin-bottom: 0;
+    }
+    #bannerText {
+        top: 0;
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #reasonParagraph {
+        font-size: 2rem;
+        padding-bottom: 5%;
+    }
+    #reasonHeader {
+        padding: 5%;
+        margin-top: 0;
+        font-size: 2.75rem!important;
+    }
+    .horizontalLine {
+        width: 55%;
+    }
+    #deliveryInfoSection {
+        margin-bottom: 0;
+        position: relative;
+        top: 0;
+    }
+    #deliveryInfo {
+        padding: 5%;
+        font-size: 1.8rem!important;
+    }
+    #deliveryInfoHeader {
+        font-size: 2.85rem;
+        color: #f0d229;
+        padding: 5%;
+        display: block;
+    }
+    #menuBannerImage {
+        content: url('images/3186.jpg');
+        height: 75vh;
+    }
+    footer {
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    .cardItem {
+        line-height: 4.5vh;
+        display: inline-block;
+        border-radius: 50%;
+        font-weight: 600;
+        width: 10.5vh;
+        height: 10.5vh;
+        font-size: 1.25rem;
+    }
 }
