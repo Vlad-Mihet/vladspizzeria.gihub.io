@@ -203,3 +203,53 @@ input {
 #searchBar {
     border-radius: 10px;
 }
+
+#menuBanners {
+    top: 0;
+    padding: 1% 0;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin: auto;
+}
+
+.rowGroup {
+    display: inline-block;
+}
+
+.cardTitle {
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+#menuBanner {
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+#menuBanner img {
+    width: 100%;
+}
+
+.cardItem {
+    color: white;
+    width: 120px;
+    padding: 2.5vh 1.25vh;
+    min-height: fit-content;
+    min-width: fit-content;
+    margin: 0.35vh 0.75vh;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.cardItem:hover {
+    background-color: rgb(0, 0, 0, 0.85);
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.6s;
+}
