@@ -318,12 +318,14 @@ input {
         margin-bottom: 0;
     }
     .cardItem {
-        line-height: 4.5vh;
+        line-height: 4vh;
         display: inline-block;
         border-radius: 50%;
         font-weight: 600;
-        width: 10.5vh;
-        height: 10.5vh;
-        font-size: 1.25rem;
+        width: 9.75vh;
+        height: 9.75vh;
+    }
+    .cardTitle {
+        font-size: 0.95rem;
     }
 }
