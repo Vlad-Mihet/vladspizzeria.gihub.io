@@ -32,7 +32,6 @@ nav {
     font-size: 2.5vh;
     font-weight: 400;
     display: block;
-    filter: contrast(90%);
 }
 
 #logo {
@@ -245,7 +244,7 @@ input {
     padding: 2.5vh 1.25vh;
     min-height: fit-content;
     min-width: fit-content;
-    margin: 0.35vh 0.75vh;
+    margin: 0.35vh 1.65vh;
     display: inline-block;
     border: 2px solid white;
     border-radius: 10px;
@@ -261,9 +260,6 @@ input {
 #deliveryInfoHeader {
     display: none;
 }
-
-@media screen and (device-height:) {}
-
 
 /* Phones */
 
@@ -318,14 +314,80 @@ input {
         margin-bottom: 0;
     }
     .cardItem {
-        line-height: 4vh;
+        line-height: 7.5vh;
         display: inline-block;
         border-radius: 50%;
         font-weight: 600;
-        width: 9.75vh;
-        height: 9.75vh;
+        width: 13.75vh;
+        height: 13.75vh;
     }
     .cardTitle {
         font-size: 0.95rem;
+    }
+}
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    #logo {
+        width: 10%;
+        height: 10%;
+    }
+    #banner img {
+        margin-top: 11%;
+        margin-bottom: 0;
+    }
+    #bannerText {
+        top: 0;
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #reasonParagraph {
+        font-size: 1.65rem;
+        padding-bottom: 5%;
+    }
+    #reasonHeader {
+        padding: 5%;
+        margin-top: 0;
+        font-size: 2.75rem!important;
+    }
+    .horizontalLine {
+        width: 55%;
+    }
+    #deliveryInfoSection {
+        margin-bottom: 0;
+        position: relative;
+        top: 0;
+    }
+    #deliveryInfo {
+        padding: 5%;
+        font-size: 1.45rem!important;
+    }
+    #deliveryInfoHeader {
+        font-size: 2.85rem;
+        color: #f0d229;
+        padding: 5%;
+        display: block;
+    }
+    #menuBannerImage {
+        content: url('images/3186.jpg');
+        height: 75vh;
+    }
+    footer {
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    .cardItem {
+        line-height: 5.5vh;
+        display: inline-block;
+        border-radius: 50%;
+        font-weight: 600;
+        width: 10.75vh;
+        height: 10.75vh;
+    }
+    .cardTitle {
+        font-size: 0.95rem;
+    }
+    #menuBanners {
+        top: 5.5vh!important;
     }
 }
