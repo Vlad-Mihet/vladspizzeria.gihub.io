@@ -28,21 +28,21 @@ nav {
 }
 
 .nav-link {
+    font-size: 1.25rem;
     margin: 0 1.2vh!important;
-    font-size: 2.5vh;
-    font-weight: 400;
+    font-weight: 500;
     display: block;
 }
 
 #logo {
     margin: 0 1.2vh;
-    height: 3.25%;
-    width: 3.25%;
+    height: 3.75%;
+    width: 3.75%;
 }
 
 .nav-link:hover {
-    filter: contrast(150%);
-    filter: brightness(150%);
+    filter: contrast(125%);
+    filter: brightness(125%);
     color: yellow!important;
     transition-property: filter, color;
     transition-duration: 0.55s;
@@ -57,7 +57,7 @@ nav {
 #reasonParagraph {
     color: white;
     text-align: center;
-    font-size: 3.75vh;
+    font-size: 3.25vh;
     margin: 0 3.5%;
     font-weight: 600;
     margin-bottom: 5vh!important;
@@ -85,13 +85,12 @@ nav {
 }
 
 #menuHeader {
-    margin-top: 3.5%;
     margin-bottom: 0!important;
     padding: 0.2%!important;
 }
 
 .horizontalLine {
-    width: 12.5%;
+    width: 14.5%;
     border: 3px solid #292b2c;
     border-radius: 50px;
     margin-top: 0!important;
@@ -102,10 +101,6 @@ nav {
     width: 42.5%;
     border: 3px solid crimson;
     border-radius: 50px;
-}
-
-#menuHor {
-    margin-bottom: 3.5%;
 }
 
 .menu-body {
@@ -156,7 +151,6 @@ input {
 }
 
 #deliveryInfoSection h3 {
-    font-size: 4.5vh;
     margin: 0.8%;
 }
 
@@ -173,17 +167,16 @@ input {
 #banner,
 #deliveryBanner h3 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.75vh;
+    font-size: 4.25vh;
+    font-weight: 600;
 }
 
 #deliveryBannerHeader,
 #reasonHeader {
     font-size: 6.5vh!important;
+    font-weight: 600;
 }
 
-#reasonParagraph {
-    font-size: 2.5rem;
-}
 
 #footerHeader {
     font-family: 'Ubuntu', sans-serif;
@@ -192,7 +185,7 @@ input {
 
 #menuHeader,
 #deliveryHeader {
-    font-size: 6.75vh;
+    font-size: 7.75vh;
 }
 
 #footerDiv {
@@ -222,7 +215,8 @@ input {
 }
 
 .cardTitle {
-    font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin: auto;
@@ -241,17 +235,17 @@ input {
 .cardItem {
     color: white;
     width: 120px;
-    padding: 2.5vh 1.25vh;
+    padding: 2.75vh 1.35vh;
     min-height: fit-content;
     min-width: fit-content;
-    margin: 0.35vh 1.65vh;
+    margin: 0.35vh 1.55vh;
     display: inline-block;
     border: 2px solid white;
     border-radius: 10px;
 }
 
 .cardItem:hover {
-    background-color: rgb(0, 0, 0, 0.85);
+    background-color: rgb(0, 0, 0, 0.8);
     cursor: pointer;
     transition-property: background-color;
     transition-duration: 0.6s;
