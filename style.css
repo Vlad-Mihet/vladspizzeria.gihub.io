@@ -381,6 +381,85 @@ input {
     .cardTitle {
         font-size: 0.95rem;
     }
+}
+
+@media all and (max-device-width: 375px) and (max-device-height: 667px) {
+    .cardTitle {
+        font-size: 0.75rem;
+    }
+    .cardItem {
+        width: 10.5vh;
+        height: 10.5vh;
+    }
+}
+
+@media all and (device-width: 414px) and (max-device-height: 736px) {
+    .cardTitle {
+        font-size: 0.95rem;
+    }
+    .cardItem {
+        line-height: 6.75vh;
+        width: 12.5vh;
+        height: 12.5vh;
+    }
+}
+
+@media all and (max-device-width: 375px) and (min-device-height: 668px) {
+    .cardTitle {
+        font-size: 0.9rem;
+    }
+    .cardItem {
+        width: 9.75vh;
+        height: 9.75vh;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #bannerText {
+        position: relative;
+        top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding: 1.5%;
+    }
+    #reasonHeader {
+        margin-top: 0;
+        margin-bottom: 3.5vh;
+    }
+    #menuBanners {
+        top: 0;
+    }
+    .cardTitle {
+        font-size: 1.25rem;
+    }
+    .cardItem {
+        line-height: 5vh;
+        border-radius: 50%;
+        width: 10.75vh;
+        height: 10.75vh;
+    }
+    .rowGroup {
+        margin: 0;
+    }
+    #banner img {
+        margin-top: 70px;
+    }
+    #menuBanner img {
+        height: 100%;
+    }
+    #deliveryInfoSection {
+        position: relative;
+        top: 0;
+        margin-bottom: 0;
+    }
+    #deliveryInfoHeader {
+        font-size: 4.35rem;
+        color: #f0d229;
+        padding: 5%;
+        display: block;
+    }
+    #deliveryBanner h3 {
+        font-size: 2.85rem;
     #menuBanners {
         top: 5.5vh!important;
     }
