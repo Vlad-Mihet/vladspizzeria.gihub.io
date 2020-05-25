@@ -8,14 +8,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-activeLink = document.getElementsByClassName('active');
-list = document.querySelectorAll(".nav-item");
-list.forEach(
-    item.addEventListener('click', function(e) {
-        activeLink = document.getElementsByClassName('active');
-        activeLink.classList.remove('active');
-        item.classList.add('active');
-    })
-);
+
+// Search Bar Script Implementation
+
+let searchBarContent = document.getElementById('searchBar').value;
+let filteredSearchBarContent = searchBarContent.toLowerCase();
 
 // Script Needed for every collapsible item
+
+let menuCards = document.getElementsByClassName('cardItem');
