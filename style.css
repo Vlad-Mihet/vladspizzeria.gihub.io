@@ -177,7 +177,6 @@ input {
     font-weight: 600;
 }
 
-
 #footerHeader {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3.75vh;
@@ -255,6 +254,20 @@ input {
     display: none;
 }
 
+#menuShowcase {
+    top: 12.5vh;
+    padding: 1% 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    margin: 0 1.5%;
+}
+
+
 /* Phones */
 
 @media all and (max-device-height: 960px) and (max-device-width: 540px) {
@@ -308,19 +321,19 @@ input {
         margin-bottom: 0;
     }
     .cardItem {
-        line-height: 7.5vh;
+        line-height: 1.5em;
         display: inline-block;
         border-radius: 50%;
         font-weight: 600;
-        width: 13.75vh;
-        height: 13.75vh;
+        width: 4.5em;
+        height: 4.5em;
     }
     .cardTitle {
-        font-size: 0.95rem;
+        font-size: 0.65rem;
     }
 }
 
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     #logo {
         width: 10%;
         height: 10%;
@@ -371,17 +384,17 @@ input {
         margin-bottom: 0;
     }
     .cardItem {
-        line-height: 5.5vh;
+        line-height: 1.5vh;
         display: inline-block;
         border-radius: 50%;
         font-weight: 600;
-        width: 10.75vh;
-        height: 10.75vh;
+        width: 8vh;
+        height: 8vh;
     }
     .cardTitle {
-        font-size: 0.95rem;
+        font-size: 0.6rem;
     }
     #menuBanners {
-        top: 5.5vh!important;
+        top: 0;
     }
 }
